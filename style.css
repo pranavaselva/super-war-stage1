@@ -1,0 +1,28 @@
+.all{
+display: grid;
+grid-template-columns:repeat(5,145px);
+justify-content: center;
+gap: 15px;
+}
+
+.spiderman, .caption, .dead, .black{
+ border: 2px solid rgb(225, 222, 222);
+ border-radius: 10px;    
+ text-align: center;
+ font-weight: 500;
+}
+.score{
+    text-align: center;
+    font-size: xx-large;
+    position: relative;
+    margin-bottom: 150px;
+}
+
+.num{
+    margin: 7px;
+    font-size: 40px;
+}
+
+.name{
+    margin: 1px;
+}
